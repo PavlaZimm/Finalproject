@@ -1,4 +1,14 @@
 @use 'base';
+@use 'programpage';
+@use 'aktualitypage';
+@use 'galeriepage';
+@use 'kontaktpage';
+@use 'registracepage';
+
+
+
+
+
 
 *, :after, :before { box-sizing: border-box; }  
 
@@ -280,9 +290,7 @@ hr{
         max-width: 1200px;
         margin-left: auto; 
         margin-right: auto;
-        display: flex;
         padding: 30px;
-        justify-content: space-evenly;
     }   
             
     .features-container{
@@ -346,4 +354,4 @@ hr{
         font-size: 12px;
     }
 
-}git init
+}

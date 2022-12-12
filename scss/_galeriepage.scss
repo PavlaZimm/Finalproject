@@ -1,0 +1,17 @@
+@use 'base';
+
+.zahlavi-galerie{
+    background-attachment: fixed;
+    background-color: base.$footer;
+    color: base.$backgroundwhite;
+}
+
+.aktuality
+{
+    max-width: 1200px;
+    margin-left: auto; 
+	margin-right: auto;
+    padding: 30px;
+}
+
+    

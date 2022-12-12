@@ -1,3 +1,94 @@
+.content {
+  background-color: #e2e1df;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 1200px;
+}
+
+.program-page {
+  margin: 20px;
+}
+
+.zahlavi {
+  background-attachment: fixed;
+  background-color: #353330;
+  color: #FFFFFF;
+}
+
+.program {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.content {
+  background-color: #e2e1df;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 1200px;
+}
+
+.program-page {
+  margin: 20px;
+}
+
+.zahlavi-aktuality {
+  background-attachment: fixed;
+  background-color: #353330;
+  color: #FFFFFF;
+}
+
+.aktuality {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.zahlavi-galerie {
+  background-attachment: fixed;
+  background-color: #353330;
+  color: #FFFFFF;
+}
+
+.aktuality {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.zahlavi-kontakt {
+  background-attachment: fixed;
+  background-color: #353330;
+  color: #FFFFFF;
+}
+
+.aktuality {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.zahlavi-registrace {
+  background-attachment: fixed;
+  background-color: #353330;
+  color: #FFFFFF;
+}
+
+.aktuality {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
 *, :after, :before {
   box-sizing: border-box;
 }
@@ -262,9 +353,7 @@ hr {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
     padding: 30px;
-    justify-content: space-evenly;
   }
   .features-container {
     background-color: #e2e1df;
