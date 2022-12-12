@@ -76,6 +76,19 @@
   padding: 30px;
 }
 
+.content-contact {
+  margin: 30px;
+}
+
+.content-kontakt {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e2e1df;
+  border-radius: 20px;
+  padding: 20px;
+}
+
 .zahlavi-registrace {
   background-attachment: fixed;
   background-color: #353330;
@@ -89,7 +102,8 @@
   padding: 30px;
 }
 
-*, :after, :before {
+------------------------------------- *,
+:after, :before {
   box-sizing: border-box;
 }
 
@@ -196,6 +210,7 @@ li {
   justify-content: space-evenly;
   font-size: 14;
   padding-right: 5px;
+  color: #FFFFFF;
 }
 
 .cta-third,
