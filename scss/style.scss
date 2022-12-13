@@ -96,8 +96,7 @@ li{
 }
 
 .hero{
-background-color: base.$background;
-padding: base.$spacer;
+    background-image: url(images/bckhero.jpg);
 }
 
 
@@ -150,7 +149,7 @@ padding: base.$spacer;
     flex-direction: column;
     align-items: baseline;
     margin-left: auto; 
-	margin-right: auto;   
+	margin-right: auto;
 }
 
 .features-foto{
@@ -160,7 +159,6 @@ padding: base.$spacer;
 
 .hero-left{
     padding: 30px;
-    flex: 0 0 50%;
 }
 
 .hero-button,
@@ -191,10 +189,9 @@ padding: base.$spacer;
     align-items: baseline;
     margin-left: auto; 
 	margin-right: auto;   
-}
+    }
 
-.features-section-left2{
-    padding: 30px;
+.section2-photo{
     flex: 0 0 50%;
 }
 

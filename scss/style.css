@@ -15,6 +15,7 @@
   background-attachment: fixed;
   background-color: #353330;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .program {
@@ -41,6 +42,7 @@
   background-attachment: fixed;
   background-color: #353330;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .aktuality {
@@ -54,6 +56,7 @@
   background-attachment: fixed;
   background-color: #353330;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .aktuality {
@@ -86,6 +89,7 @@
   background-attachment: fixed;
   background-color: #353330;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .aktuality {
@@ -122,6 +126,7 @@ label, textarea {
   background-attachment: fixed;
   background-color: #353330;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .aktuality {
@@ -220,8 +225,7 @@ li {
 }
 
 .hero {
-  background-color: #e2e1df;
-  padding: 10px;
+  background-image: url(images/bckhero.jpg);
 }
 
 .mustang {
@@ -282,7 +286,6 @@ li {
 
 .hero-left {
   padding: 30px;
-  flex: 0 0 50%;
 }
 
 .hero-button,
@@ -315,8 +318,7 @@ li {
   margin-right: auto;
 }
 
-.features-section-left2 {
-  padding: 30px;
+.section2-photo {
   flex: 0 0 50%;
 }
 
