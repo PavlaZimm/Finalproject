@@ -17,6 +17,7 @@
 .content-contact{
     margin: 30px;
 }
+
 .content-kontakt{
     max-width: 1200px;
     margin-left: auto; 
@@ -24,4 +25,14 @@
     background-color: base.$background;
     border-radius: 20px;
     padding: 20px;
+}
+
+label, textarea{
+    display: block;
+    margin-top: 10px;
+}
+
+.form{
+    padding-top: 20px;
+    max-width: 400px;
 }

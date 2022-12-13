@@ -108,6 +108,16 @@
   padding: 20px;
 }
 
+label, textarea {
+  display: block;
+  margin-top: 10px;
+}
+
+.form {
+  padding-top: 20px;
+  max-width: 400px;
+}
+
 .zahlavi-registrace {
   background-attachment: fixed;
   background-color: #353330;
@@ -137,11 +147,18 @@ h1 {
   margin: 0;
 }
 
+.models {
+  font-weight: 800;
+  font-size: 40px;
+  text-shadow: 1px 1px 10px #ffffff;
+}
+
 .navbar .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: stretch;
+  font-weight: 500;
 }
 
 .navbar {
@@ -245,6 +262,7 @@ li {
   text-align: center;
   margin-bottom: 10px;
   padding: 20px;
+  flex: 0 0 50%;
 }
 
 .features-container {
