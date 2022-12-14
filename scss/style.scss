@@ -13,6 +13,7 @@ body{
     font-family: base.$fontbase;
     font-size: 16px;
     margin: 0;
+    line-height: 1.5;
 }
 
 h1{
@@ -109,8 +110,9 @@ li{
 	margin-right: auto;
 }
 
-.buttons{
-    background-color: base.$primaryblue;
+.section-text{
+    color: base.$backgroundwhite;
+    margin: 0;
 }
 
 .section-buttons{
@@ -118,10 +120,7 @@ li{
     margin-left: auto; 
 	margin-right: auto;
     display: flex;
-    padding: 30px;
     justify-content: space-evenly;
-    font-size: 14;
-    padding-right: 5px;
     color: base.$backgroundwhite
 }
 
@@ -157,7 +156,8 @@ li{
     max-width: 100%;
 }
 
-.hero-left{
+.hero-left,
+.features-section-left2{
     padding: 30px;
 }
 
@@ -186,13 +186,15 @@ li{
     border-radius: 20px;
     display:flex;
     flex-direction: column;
-    align-items: baseline;
     margin-left: auto; 
 	margin-right: auto;   
+    align-content: stretch;
+
     }
 
 .section2-photo{
     flex: 0 0 50%;
+
 }
 
 .photo2{
@@ -327,7 +329,7 @@ hr{
         align-items: center;
         flex-direction: row;
     }
-   
+
     .photo2{
         border-radius: 20px 0 0 20px;
         max-width: 100%;
@@ -356,5 +358,13 @@ hr{
         padding: 20px;
         font-size: 12px;
     }
+
+    .second-nav{
+        display: none;
+    }
+
+
+
+
 
 }

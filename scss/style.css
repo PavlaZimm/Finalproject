@@ -79,10 +79,15 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
 }
 
 .container-gallery2 {
   margin: 20px;
+}
+
+.container-gallery2 img {
+  width: 100%;
 }
 
 .zahlavi-kontakt {
@@ -117,9 +122,36 @@ label, textarea {
   margin-top: 10px;
 }
 
+form {
+  width: 100%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .form {
-  padding-top: 20px;
-  max-width: 400px;
+  text-align: center;
+}
+
+.form-field input, textarea {
+  width: 100%;
+  border: black;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 20px;
+  border-radius: 4px;
+  background-color: #932725;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  background-color: #3d4049;
 }
 
 .zahlavi-registrace {
@@ -142,9 +174,10 @@ label, textarea {
 }
 
 body {
-  font-family: "poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   margin: 0;
+  line-height: 1.5;
 }
 
 h1 {
@@ -237,8 +270,9 @@ li {
   margin-right: auto;
 }
 
-.buttons {
-  background-color: #222e47;
+.section-text {
+  color: #FFFFFF;
+  margin: 0;
 }
 
 .section-buttons {
@@ -246,10 +280,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  padding: 30px;
   justify-content: space-evenly;
-  font-size: 14;
-  padding-right: 5px;
   color: #FFFFFF;
 }
 
@@ -284,7 +315,8 @@ li {
   max-width: 100%;
 }
 
-.hero-left {
+.hero-left,
+.features-section-left2 {
   padding: 30px;
 }
 
@@ -313,9 +345,9 @@ li {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  align-items: baseline;
   margin-left: auto;
   margin-right: auto;
+  align-content: stretch;
 }
 
 .section2-photo {
@@ -458,5 +490,8 @@ hr {
     text-align: center;
     padding: 20px;
     font-size: 12px;
+  }
+  .second-nav {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

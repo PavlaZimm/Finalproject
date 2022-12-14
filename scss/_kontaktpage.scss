@@ -33,7 +33,41 @@ label, textarea{
     margin-top: 10px;
 }
 
+
+form{
+    width: 100%;
+    max-width: 90%;
+    margin-left: auto; 
+	margin-right: auto;
+}
+
 .form{
-    padding-top: 20px;
-    max-width: 400px;
+    text-align: center;
+}
+
+.form-field input, textarea{
+    width:100%;
+    border: black;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.button{
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: base.$primaryred;
+    color: base.$backgroundwhite;
+}
+
+
+.button:hover{
+    background-color: base.$hover;
+}
+
+
+@media screen and (min-width: 540px){
+
 }
